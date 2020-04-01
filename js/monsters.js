@@ -5,7 +5,7 @@ import {plane} from "./plane.js";
 import {GAME} from "./app.js";
 
 const deadImage = new Image();                                 //定义怪兽死亡图像
-deadImage.src = '../game/img/boom.png';
+deadImage.src = '../planeGame/img/boom.png';
 
 //怪兽的构造函数
 function Monster(x, y) {
@@ -15,7 +15,7 @@ function Monster(x, y) {
     this.gap = 10;
     this.dead = false;
     this.image = new Image();
-    this.image.src = '../game/img/enemy.png';
+    this.image.src = '../planeGame/img/enemy.png';
 }
 
 Monster.prototype.draw = function (x, y) {

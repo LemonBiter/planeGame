@@ -86,7 +86,7 @@ const plane = new Ship({                           //生成新的飞机对象，
     height: 100,
     pressLeft: false,
     pressRight: false,
-    src: '../game/img/plane.png'
+    src: '../planeGame/img/plane.png'
 });
 
 export {plane,Bullets};
